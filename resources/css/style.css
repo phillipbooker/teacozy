@@ -1,0 +1,155 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color:seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h2,
+h4{
+  height: 40px;
+  margin: 0px;
+}
+
+/*header*/
+.header{
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  /*position: fixed;*/ /*Need to fix postion of header*/
+  width: 100%;
+  justify-content: space-between;
+  background-color: black;
+  z-index: 5;
+  margin: 0px;
+}
+
+.header-logo{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-nav a{
+  text-decoration: underline;
+  color: seashell;
+}
+
+/*mission*/
+.mission{
+  margin-top: 69px;
+  position: relative;
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  top: 69px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-container{
+  display: flex;
+  height: 100px;
+  width: 1200px;
+  flex-direction: column;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission-container h2,
+.mission-container h4{
+  height: 40px;
+  margin: 0px;
+}
+
+/*Featured Tea*/
+.featured-tea{
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-tea-header{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+.featured-tea-pics{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.tea-pic{
+  display: flex;
+  flex-direction: column;
+}
+
+.tea-pic img{
+  height: 200px;
+  width: 300px;
+  margin: 10px auto;
+}
+
+/*Locations*/
+.locations{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.locations h2{
+  margin-bottom: 15px;
+  color: orange; /*for visibility*/
+}
+
+.locations-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations-boxes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.locations-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+}
+
+/*footer*/
+.footer{
+  height: 200px;
+  justify-content: center;
+}
+
+/*Copyright*/
+.copyright{
+  text-align: left;
+  padding-left: 20px;
+}
